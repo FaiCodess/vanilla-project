@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   <title>My Weather Application</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
   <main>
     <div class="weather-app-data">
       <div>
-        <h1 class="weather-app-city" id="city">Lilongwe</h1>
+        <h1 class="weather-app-city" id="city"></h1>
         <p class="weather-app-details">
             Thursday 13:23, moderate rain
             <br />
@@ -30,7 +30,7 @@
       </div>
     <div class="weather-app-temperature-container">
         <div class="weather-app-icon">🌤️</div>
-        <div class="weather-app-temperature">24</div>
+        <div class="weather-app-temperature" id="temperature"></div>
         <div class="weather-app-unit">°C</div>
     </div>
     </div>
